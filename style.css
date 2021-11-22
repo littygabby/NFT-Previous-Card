@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    background-color:  hsl(217, 54%, 11%);
+    position: relative;
+  }
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  .image{
+    border-radius: 15px;
+    width: 300px;
+  }
+
+  .Equilibrium {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .promotes {
+    font-size: 18px;
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 20px;
+    color:  hsl(0, 0%, 100%);
+  }
+
+  .count {
+    display: flex;
+    align-self: flex-start;
+    gap: 10px;
+  }
+
+  .count .eth {
+    color: cyan;
+    font-weight: 400;
+    font-family: Outfit, sans-serif;
+    padding-left: 0;
+  }
+
+  hr {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .author{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-self: flex-start;
+    margin-top: 10px;
+  }
+
+  .author .game {
+    width: 40px;
+    align-self: flex-start;
+    margin-right: 10px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+  }
+
+  .author p {
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Outfit, sans-serif;
+  }
+
+  .attribution {
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (max-width: 580px) {
+    body {
+        max-width: 100%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .parent {
+        max-width: 100%;
+    }
+
+    .attribution {
+      margin-top: 10%;
+    }
+  }
+  
